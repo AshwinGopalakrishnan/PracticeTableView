@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CFA2597E1F0F4E0500AEBDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2597D1F0F4E0500AEBDF4 /* AppDelegate.swift */; };
-		CFA259801F0F4E0500AEBDF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2597F1F0F4E0500AEBDF4 /* ViewController.swift */; };
 		CFA259831F0F4E0500AEBDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA259811F0F4E0500AEBDF4 /* Main.storyboard */; };
 		CFA259851F0F4E0500AEBDF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA259841F0F4E0500AEBDF4 /* Assets.xcassets */; };
 		CFA259881F0F4E0500AEBDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA259861F0F4E0500AEBDF4 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		CFA2597A1F0F4E0500AEBDF4 /* PracticeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA2597D1F0F4E0500AEBDF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFA2597F1F0F4E0500AEBDF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFA259821F0F4E0500AEBDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFA259841F0F4E0500AEBDF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFA259871F0F4E0500AEBDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				CFA2597D1F0F4E0500AEBDF4 /* AppDelegate.swift */,
-				CFA2597F1F0F4E0500AEBDF4 /* ViewController.swift */,
 				CFA259811F0F4E0500AEBDF4 /* Main.storyboard */,
 				CFA259841F0F4E0500AEBDF4 /* Assets.xcassets */,
 				CFA259861F0F4E0500AEBDF4 /* LaunchScreen.storyboard */,
@@ -100,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CFA259751F0F4E0500AEBDF4 /* Build configuration list for PBXProject "PracticeTableView" */;
+			buildConfigurationList = CFA259751F0F4E0500AEBDF4 /* Build configuration list for PBXProject "SettingsPractice" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -136,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA259801F0F4E0500AEBDF4 /* ViewController.swift in Sources */,
 				CFA2597E1F0F4E0500AEBDF4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +279,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFA259751F0F4E0500AEBDF4 /* Build configuration list for PBXProject "PracticeTableView" */ = {
+		CFA259751F0F4E0500AEBDF4 /* Build configuration list for PBXProject "SettingsPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFA2598A1F0F4E0500AEBDF4 /* Debug */,
@@ -299,6 +295,7 @@
 				CFA2598E1F0F4E0500AEBDF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

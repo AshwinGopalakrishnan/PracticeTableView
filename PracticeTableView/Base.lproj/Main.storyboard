@@ -9,23 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PracticeTableView" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
         <!--Table View Controller-->
         <scene sceneID="VmT-G5-4Zr">
             <objects>
@@ -54,7 +37,7 @@
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Apple Maps" id="7Zo-p0-nsb">
                                                     <rect key="frame" x="15" y="9" width="24" height="24"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <color key="backgroundColor" red="0.57689732142857142" green="0.48593750000000002" blue="0.46618303571428571" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -76,7 +59,7 @@
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Privacy" id="uf3-SJ-Lky">
                                                     <rect key="frame" x="15" y="9" width="24" height="24"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <color key="backgroundColor" red="0.19831407070159912" green="0.049179665744304657" blue="0.21629196405410767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -102,7 +85,8 @@
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Privacy" id="zSt-fy-ecB">
                                                     <rect key="frame" x="15" y="9" width="24" height="24"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <color key="backgroundColor" red="0.43757975101470947" green="0.001950149773620069" blue="0.99490243196487427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -124,7 +108,8 @@
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Map" id="ZWN-5o-qZO">
                                                     <rect key="frame" x="15" y="0.0" width="43" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <color key="backgroundColor" red="0.086789093911647797" green="0.62230777740478516" blue="0.96843200922012329" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                             </subviews>
                                             <rect key="contentStretch" x="0.0" y="0.0" width="0.69999999999999996" height="0.65000000000000002"/>
@@ -147,7 +132,7 @@
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Safari" highlightedImage="Safari" id="DbK-eQ-UPg">
                                                     <rect key="frame" x="15" y="9" width="24" height="24"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <color key="backgroundColor" red="0.14137974381446838" green="0.94301378726959229" blue="0.97789841890335083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -169,7 +154,7 @@
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Map" id="e7f-bQ-cPe">
                                                     <rect key="frame" x="15" y="0.0" width="43" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -191,7 +176,7 @@
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Game Center" id="5WB-MW-POs">
                                                     <rect key="frame" x="15" y="9" width="24" height="24"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
